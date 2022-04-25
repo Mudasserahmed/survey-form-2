@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image: url("office.webp");
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    max-width: 60% !important;
+    margin: auto;
+    background-color:#1b1b32cc;
+    color: white;
+    border-style:outset;
+    border-color: rgb(14, 13, 13);
+}
+form{
+
+    padding: 20px;
+    font-weight: bold;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+form button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #37af65;
+    color: white;
+}
+form input{
+    max-width: 90% !important;
+}
+form select{
+    max-width: 90% !important;
+}
+@media (max-width:700px){
+    .container {
+        max-width: 90% !important;
+    }
+form .input-textarea{
+     width: 90% !important;
+}
+}
